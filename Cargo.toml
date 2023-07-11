@@ -1,0 +1,12 @@
+[package]
+name = "concordium-contract"
+version = "0.1.0"
+edition = "2021"
+authors = ["Alexander <alexander@wackazong.com>"]
+
+
+[dependencies]
+concordium-std.version = "7.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
